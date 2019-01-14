@@ -1,6 +1,6 @@
 require 'pry'
 class Ride
-  attr_accessor :driver, :passenger, :distance
+  attr_reader :driver, :passenger, :distance
 
   @@all = []
 
